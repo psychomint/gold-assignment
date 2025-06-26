@@ -1,0 +1,51 @@
+// dummyProducts.js
+export const dummyProducts = [
+  {
+    id: 1,
+    title: "2.5 GM VALCAMBI SWISS GOLD BAR",
+    price: 81.543,
+    weight: "10 - 50 Gram",
+    category: "SWISS GOLD BAR",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+  {
+    id: 2,
+    title: "10 GM UBS GOLD BAR",
+    price: 320.75,
+    weight: "10 - 50 Gram",
+    category: "SWISS GOLD BAR",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+  {
+    id: 3,
+    title: "500 GM UAE GOLD BAR",
+    price: 16435.5,
+    weight: "200 - 10000 Gram",
+    category: "UAE GOLD BAR",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+  {
+    id: 4,
+    title: "1 KG UAE GOLD BAR",
+    price: 32871.0,
+    weight: "200 - 10000 Gram",
+    category: "UAE GOLD BAR",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+  {
+    id: 5,
+    title: "50 GM LONDON COINS BAR",
+    price: 1640.0,
+    weight: "50 - 100 Gram",
+    category: "LONDON COINS",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+  {
+    id: 6,
+    title: "200 GM SAUDI BIN COINS",
+    price: 6560.0,
+    weight: "100 - 200 Gram",
+    category: "SAUDI BIN COINS",
+    image: "https://finegoldkwt.com/images//1692712517_1%20B.jpg",
+  },
+];
