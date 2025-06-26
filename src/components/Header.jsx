@@ -1,12 +1,23 @@
 import { useState } from "react";
 import { Menu, X, ShoppingCart, User } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ cartCount = 0, cartItems = [] }) => {
   const [authBtn, setAuthBtn] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [showCart, setShowCart] = useState(false);
+  const navigate = useNavigate();
 
-  const toggleAuth = () => setAuthBtn(!authBtn);
+  const toggleAuth = () => {
+    if(authBtn){
+      setAuthBtn(false);
+      navigate("/login");
+    }
+    else{
+      setAuthBtn(true);
+      navigate("/");
+    }
+  }
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
 
   return (
