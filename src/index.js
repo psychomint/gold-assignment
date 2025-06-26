@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 // Components
-import Header from "./components/header";
+import Header from "./components/Header";
 import MainPage from "./components/MainPage";
 import LoginForm from "./components/auth/LoginForm";
 import Shop from "./components/Shop";
